@@ -1,0 +1,16 @@
+{
+    "name": "phoenix-js-derp",
+    "version": "0.0.1",
+    "description": "A derpy little phoenix.js, for those who prefer npm.",
+    "main": "lib/phoenix.js",
+    "author": "mrluc <superluc@gmail.com>",
+    "repository": "mrluc/phoenix-js-derp",
+    "devDependencies": {
+        "gulp": "^3.8.7",
+        "browserify": "^5.9.3",
+        "babelify": "^6.3.0",
+        "del": "^2.0.2",
+        "request": "^2.61.0"
+    },
+    "dependencies": {}
+}
