@@ -39,8 +39,7 @@ phoenix.js file from github based on a git tag.
 
 ### ... why?
 
-I put this together over about a half hour ... as of nnnnnnnnnnnnOW,
-just because I was bummed out that I was managing dependencies with
-vendored js files, and I figured that I could keep it in sync with
-current phoenix until the official package is out -- in which case, I
-just remove "`-derp`" in 2 places and I'm gtg.
+Just a whim. I was a teensy bit bummed out that
+I was managing dependencies via
+vendored js files. Plus, updating it with the latest
+is basically just running `gulp; npm publish`
