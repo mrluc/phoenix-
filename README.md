@@ -3,15 +3,15 @@
 Elixir, Phoenix ... what could be better? Start it up, and with a
 few lines of backend and frontend code, you're using Channels.
 
-Now, sure, some of us are using a different front-end stack than Brunch.
-
-One thing that would be great for those people is if they could easily
-pull in the phoenix.js file that brings Channels to the frontend. Best of
-all would probably be if that file was presented as an NPM module, since
-NPM is the most successful package manager out there.
+Now, sure, some of us are using a different setup than
+the default Phoenix frontend, which is Brunch.
+And one thing that would be great is if we could easily use the
+phoenix.js file
+as an NPM module, since NPM is the most successful package manager out there
+and lots of us package our js that way.
 
 [That'll be coming!](https://github.com/phoenixframework/phoenix/issues/827)
-But there are a lot of priorities for Phoenix right
+But there are a lot of other priorities for Phoenix right
 now, because its future is So Bright. And a conf is coming up, and so forth.
 
 So this is a little module that just does one thing: it lets you
