@@ -7,10 +7,10 @@ concat     = require 'gulp-concat'
     
 PHOENIX_VERSION = '1.0.2'
 _url = 'https://raw.githubusercontent.com/phoenixframework/phoenix/v__VSN__/web/static/js/phoenix.js'
-versioned_url = (vsn)-> _url.replace "__VSN__", vsn
+URL = _url.replace "__VSN__", PHOENIX_VERSION
 
 g.task "download", ->
-  request( versioned_url( PHOENIX_VERSION ))
+  request( URL )
     .pipe fs.createWriteStream "./src/phoenix.js"
 
 g.task "build", ["download"], ->

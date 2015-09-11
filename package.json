@@ -10,7 +10,7 @@
     "gulp-babel": "^5.2.1",
     "gulp-concat": "^2.6.0",
     "gulp-sourcemaps": "^1.5.2",
-    "request": "^2.61.0",
+    "request": "^2.61.0"
   },
   "dependencies": {}
 }
