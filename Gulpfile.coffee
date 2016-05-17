@@ -5,7 +5,7 @@ sourcemaps = require 'gulp-sourcemaps'
 babel      = require 'gulp-babel'
 concat     = require 'gulp-concat'
     
-PHOENIX_VERSION = '1.0.2'
+PHOENIX_VERSION = '1.1.2'
 _url = 'https://raw.githubusercontent.com/phoenixframework/phoenix/v__VSN__/web/static/js/phoenix.js'
 URL = _url.replace "__VSN__", PHOENIX_VERSION
 

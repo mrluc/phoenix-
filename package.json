@@ -1,6 +1,6 @@
 {
   "name": "phoenix-js-derp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A derpy little phoenix.js, for those who prefer npm.",
   "main": "lib/phoenix.js",
   "author": "mrluc <superluc@gmail.com>",
